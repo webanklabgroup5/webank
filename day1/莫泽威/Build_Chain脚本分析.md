@@ -24,6 +24,16 @@ Build_Chain.sh个人报告
 首先上面的部分是使用sha256加密算法创建请求，使用的是Agency的密钥。同时使用openssl创建时间长达10年的x509文件。
 在生成节点的代码中，先生成独一无二的节点信息（path等），node id是 pubkey.
 
+创建群组Group
+---------
+![image](https://github.com/webanklabgroup5/webank/blob/master/day1/%E8%8E%AB%E6%B3%BD%E5%A8%81/image/%E5%88%9B%E5%BB%BA%E7%BE%A4%E7%BB%84.png)
+
+
+生成节点的脚本
+-----------
+![image](https://github.com/webanklabgroup5/webank/blob/master/day1/%E8%8E%AB%E6%B3%BD%E5%A8%81/image/%E7%94%9F%E6%88%90%E8%8A%82%E7%82%B9%E8%84%9A%E6%9C%AC.png)
+
+
 
 
 
