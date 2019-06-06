@@ -33,7 +33,21 @@ Build_Chain.sh个人报告
 -----------
 ![image](https://github.com/webanklabgroup5/webank/blob/master/day1/%E8%8E%AB%E6%B3%BD%E5%A8%81/image/%E7%94%9F%E6%88%90%E8%8A%82%E7%82%B9%E8%84%9A%E6%9C%AC.png)
 
+![image](https://github.com/webanklabgroup5/webank/blob/master/day1/%E8%8E%AB%E6%B3%BD%E5%A8%81/image/%E7%94%9F%E6%88%90%E8%8A%82%E7%82%B9%E8%84%9A%E6%9C%AC2.png)
 
+生成服务端脚本
+----------
+![image](https://github.com/webanklabgroup5/webank/blob/master/day1/%E8%8E%AB%E6%B3%BD%E5%A8%81/image/%E7%94%9F%E6%88%90%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%84%9A%E6%9C%AC.png)
+
+
+Main()运行步骤：
+1. 先分析ip设置
+2. 验证目录、环境等合理性
+3. 从Github上下载源码(若所需文件不齐)
+4. 生成 Cert.cnf 
+5. 准备加密 CA 
+6. 生成密钥（国密）
+7. 生成配置
 
 
 
