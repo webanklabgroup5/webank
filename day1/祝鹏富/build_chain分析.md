@@ -7,9 +7,9 @@ build_chain.sh脚本用于快速生成一条链中节点的配置文件，脚本
 - 使用`-l`选项指定节点IP和数目，或使用`-f`选项使用一个指定格式的配置文件。`-l`和`-f`必须且只能使用其中一个。
 - 测试时用可`-T`或`-i`选项。`-T`选项开启log级别到DEBUG，`-i`选项设置RPC和channel监听`0.0.0.0`，p2p模块默认监听`0.0.0.0`。
 
-### build_chain.sh分析
+### main()主函数分析
 
-- `help()`方法，在终端输入`./build_chain.sh -help`可以查看各命令选项信息。
+- `build_chain.sh`脚本里的`parse_params()`方法会解析各命令选项。具体各选项命令可以查看脚本里的`help()`方法块。
 ```
 Usage:
     -l <IP list>                        [Required] "ip1:nodeNum1,ip2:nodeNum2" e.g:"192.168.0.1:2,192.168.0.2:3"
@@ -33,15 +33,16 @@ Usage:
 e.g
     ./tools/build_chain.sh -l "127.0.0.1:4"
 ```
-
-- `LOG_WARN()`、`LOG_INFO()`，与日志相关，若在建链过程中产生了相关的日志信息，在终端输入`./build_chain.sh -log`会提示如下信息清除旧日志。
-![](./img/-log.png)
-
-- `parse_params()`方法，解析调用脚本时输入的命令选项。
-
-- `print_result()`方法，输出调用脚本的结果。
-
-- `check_env()`方法，检查`openssl`等环境是否搭建好
-
-- `check_and_install_tassl()`方法，检查`tassl`环境是否搭建并判断是否需要下载。
-
+- 脚本会先根据命令选项`-l`或`-f`判断是使用命令输入的节点IP还是使用配置配置文件生成节点。
+![](./img/-l-f.png)
+- 随后检测输出文件目录是否存在，以及fisco版本情况。
+![](./img/dir_version.png)
+- 然后检查运行环境是否在docker下以及操作系统情况，下载fisco-bcos。
+![](./img/docker-mode.png)
+- 再根据命令输入的节点信息或配置文件调用`gen_chain_cert()`方法生成链的证书。
+![](./img/gen_chain_cert.png)
+- 再调用`gen_agency_cert()`方法生成机构证书。
+![](./img/gen_agency_cert.png)
+- 之后调用`gen_node_cert()`方法生成节点证书。
+![](./img/gen_node_cert.png)
+- 最后调用`print_result()`方法输出结果信息。
