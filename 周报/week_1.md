@@ -2,5 +2,6 @@
 
 ### 第一周
 [祝鹏富第一周周报](https://github.com/Voilance/WeBankWeekly/blob/master/Week1.md)
+[祝鹏富第二周周报](https://github.com/Voilance/WeBankWeekly/blob/master/Week2.md)
 
 ### 第二周
