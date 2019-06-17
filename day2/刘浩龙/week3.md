@@ -83,3 +83,18 @@ contract LAGCredit {
 5. 转积分到另一个用户中，并查看该用户余额。
 
 ![转积分](images/微信图片_20190611182922.png)
+
+### 使用SDK
+1. 拉取源码
+```
+$ git clone https://github.com/FISCO-BCOS/spring-boot-starter.git
+```
+
+2. 节点证书配置
+将节点所在目录nodes/${ip}/sdk下的ca.crt、node.crt和node.key文件拷贝到项目的src/test/resources目录下供SDK使用。
+
+3. 运行测试
+```
+$ ./gradlew build
+```
+![运行测试](images/微信图片_20190617155818.png)
