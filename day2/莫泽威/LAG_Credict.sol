@@ -29,12 +29,12 @@ contract LAG_Credict
         User_Credict[msg.sender] = initial_num;
     }
     
-    function Search_Credict_ForUser(address _owner) private returns(uint256)
+    function Search_Credict_ForUser(address _owner) public returns(uint256)
     {
         return User_Credict[_owner];
     }
     
-    function Get_TotalCredict() private returns(uint256)
+    function Get_TotalCredict() public returns(uint256)
     {
         return Total_Credict;
     }
