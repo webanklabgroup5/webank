@@ -16,5 +16,8 @@
 5. 给参与者转账积分并查看其积分
 ![image](https://github.com/webanklabgroup5/webank/blob/master/day2/%E8%8E%AB%E6%B3%BD%E5%A8%81/%E8%BD%AC%E8%B4%A6%E5%B9%B6%E6%9F%A5%E7%9C%8B%E6%8E%A5%E6%94%B6%E8%80%85%E7%9A%84%E7%A7%AF%E5%88%86.png)
 
+合约部署使用全过程
+-------
+![image](https://github.com/webanklabgroup5/webank/blob/master/day2/%E8%8E%AB%E6%B3%BD%E5%A8%81/%E5%90%88%E7%BA%A6%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8%E6%9F%A5%E8%AF%A2%E5%85%A8%E8%BF%87%E7%A8%8B.png)
 
 6. 编译spring-booter项目.
