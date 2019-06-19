@@ -41,14 +41,14 @@ contract LAG_Credict
     
     function Transfer(address _from, address _to, uint256 num) private
     {
-        require(Total_Credict[_from] >= num);
+        require(User_Credict[_from] >= num);
         require(num >= 0);
-        Total_Credict[_from] -= num;
-        Total_Credict[_to] += num;
+        User_Credict[_from] -= num;
+        User_Credict[_to] += num;
         
         //Attention
         emit transferEvent(_from,_to,num);
-        require(Total_Credict[_from] + Total_Credict[_to] == Total_Credict);
+        require(User_Credict[_from] + User_Credict[_to] == Total_Credict);
     }
 
     function transfer(address _to, uint256 num) public
