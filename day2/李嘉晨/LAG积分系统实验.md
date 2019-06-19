@@ -27,10 +27,10 @@ chmod u+x get_account.sh
 
 ## 实验结果
 ### 商家
-![1](/images/merchant.png)
+![1](images/merchant.png)
 
 ### 客户
-![2](/images/customer.png)
+![2](images/customer.png)
 
 ## 实验心得
 * 登陆控制台使用私钥(相当于密码)
@@ -46,4 +46,4 @@ cd ~/spring-boot-starter/
 chmod u+x gradlew
 ./gradlew build
 ```
-![3](/images/build.png)
+![3](images/build.png)
