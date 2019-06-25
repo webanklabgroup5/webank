@@ -3,6 +3,7 @@
 ## 使用 spring-boot-starter 部署课上的LAG积分合约
 
 > 将区块链部署在服务器，Windows 环境下使用 IDE 进行开发
+> [项目代码地址](https://github.com/TheProudSoul/LAGC_SDK)
 
 ### 更改 application.yml
 
@@ -20,17 +21,43 @@ channel-service:
   org-id: fisco # agency name
 ```
 
+### 1. 编译合约
+
+![编译合约](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dk97u1akj20n90iywip.jpg)
+
 ### 1. deploy函数测试
 
-![deploy函数测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g46evqzf09j21gr08wwfd.jpg)
+![deploy函数测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dka0e86oj20v40axq6q.jpg)
 
-### 2. transfer函数测试
+### 2. load函数测试
 
-![transfer函数测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g46evqyexfj210207dwf2.jpg)
+![load函数测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dkampy9jj20uo07uq5h.jpg)
 
-### 3. load函数测试
+### 3. transfer函数测试
 
-![load函数测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g46evqxt1pj21c70bxjsl.jpg)
+![transfer函数测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dkb98cxqj20vc0ehaeu.jpg)
+
+### 4. 获取账户地址测试
+
+![获取账户地址测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dkbrbekfj20rd0ffq6i.jpg)
+
+### 5. 获取账户余额测试
+
+![获取账户余额测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dkcjyko9j20pi0b5q5w.jpg)
+
+### 6. 获取总发行积分测试
+
+![获取总发行积分测试](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dkd0oqxmj20rb0fnjvo.jpg)
+
+### 其他账号调用合约
+
+1. 修改application.yml中的user-key改为原先被转账用户
+2. 重新进行账户transfer测试对原来的账户转账100积分
+3. 查看原来账户积分余额：100000-1000+100=99100
+
+![转账100积分](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dke3scvzj20su022mxq.jpg)
+
+![查看原来账户积分余额](http://ww1.sinaimg.cn/large/7b19d4ddgy1g4dked9t39j20bs02zjru.jpg)
 
 ## 进一步理解区块链概念
 

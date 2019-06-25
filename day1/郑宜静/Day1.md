@@ -1,25 +1,41 @@
 # 5.28 练习
 
-## 1. 查看区块高度 && 部署HelloWorld智能合约
+## 1. 查看区块高度
 
-![图1](http://ww1.sinaimg.cn/large/7b19d4ddly1g3h3w03ie1j20on05wq3e.jpg)
+![查看区块高度](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0gjs8ij206v01fweb.jpg)
 
 ## 2. 获取区块数据
 
-![图2](http://ww1.sinaimg.cn/large/7b19d4ddly1g3h3w22vofj21ew0p1wim.jpg)
+![获取区块数据](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0j7obsj21f70eo44t.jpg)
 
-## 3. 使用查看getDeployLog
+## 3. 部署HelloWorld智能合约
 
-![图3](http://ww1.sinaimg.cn/large/7b19d4ddly1g3h3w0pp7oj212904sgly.jpg)
+![部署HelloWorld智能合约](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0i27xzj20fg01c3yj.jpg)
 
-## 4. 调用智能合约 && 再次查看区块高度
+## 4. 使用查看getDeployLog
 
-![图4](http://ww1.sinaimg.cn/large/7b19d4ddly1g3h3w1pp5dj215o0qcdjx.jpg)
+![使用查看getDeployLog](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0hy2wjj20oi021jri.jpg)
 
-## 5. 按CNS方式部署HelloWorld智能合约 && 再次查看区块高度
+## 5. 调用智能合约
 
-![图5](http://ww1.sinaimg.cn/large/7b19d4ddly1g3h3w1ithpj21f60lt0vl.jpg)
+![调用智能合约](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0igfj9j20jd01hweh.jpg)
 
-## 6. 获取区块数据
+## 6. 再次查看区块高度
 
-![图6](http://ww1.sinaimg.cn/large/7b19d4ddly1g3h3w1smcjj21f10nwtd3.jpg)
+![再次查看区块高度](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0hx8o6j20it02t0sw.jpg)
+
+## 7. 获取区块数据
+
+![获取区块数据](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0jj4o9j21fb0evjxa.jpg)
+
+## 8. 按CNS方式部署HelloWorld智能合约
+
+![按CNS方式部署HelloWorld智能合约](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0iorisj20ni0440te.jpg)
+
+## 9. 再次查看区块高度
+
+![再次查看区块高度](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0ibzkej206q01h3yc.jpg)
+
+## 10. 获取区块数据
+
+![获取区块数据](http://ww1.sinaimg.cn/large/7b19d4ddly1g4di0kgg1lj21fb0eoq98.jpg)
