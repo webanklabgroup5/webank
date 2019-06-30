@@ -4,6 +4,13 @@
 
 设计一个宠物售卖和转卖分布式市场 [参考文档](../project/)
 
-## 工作报告
+## 小组工作进度报告
+
+- 确认需求
+- 编写需求文档
+- 任务分工
+- 编写接口文档
+
+## 个人工作报告
 
 - [郑宜静第五周工作报告](https://github.com/webanklabgroup5/webank/blob/master/day3/%E9%83%91%E5%AE%9C%E9%9D%99/week5.md)
