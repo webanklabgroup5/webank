@@ -9,7 +9,8 @@
 ### 目录结构
 - `day1`：企业第一天上课每个人的作业和笔记内容。
 - `day2`：企业第二天上课每个人的作业和笔记内容。
-- `project` : 课程大作业与项目文档，源码
+- `day3`：课程设计大作业周报
+- `project` : 课程大作业与项目文档，源码(废弃，另开仓库提交)
 - `周报`：每周的周报。
 
 ### 第一二周作业
@@ -21,3 +22,11 @@
 ### 第三四周作业
 1. 用[僵尸游戏](https://cryptozombies.io/en/lesson)熟悉solidity规则。
 2. 使用[spring-boot-starter](https://github.com/FISCO-BCOS/spring-boot-starter/blob/master/doc/README_CN.md)部署课上的LAG积分合约
+
+### 第五六周作业
+运用区块链技术设计并实现一个宠物商店:
+* [需求文档](https://github.com/webanklabgroup5/Requirments)
+* [用户移动端](https://github.com/webanklabgroup5/PetStore-Android)
+* [管理员web前端](https://github.com/webanklabgroup5/PetStore-Web)
+* [java后台](https://github.com/webanklabgroup5/PetStore-Server)
+* [智能合约](https://github.com/webanklabgroup5/PetStore-Server/tree/contract)
